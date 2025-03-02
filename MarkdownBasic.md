@@ -254,3 +254,60 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
     `{ my code }`
 
     Add as many paragraphs as you like.
+
+## 自定义标题ID
+
+### My Great Heading {#custom-id}
+
+<h3 id="custom-id">My Great Heading</h3>
+
+## 链接到标题ID
+链接到标题ID (#headid)
+[Heading IDs](#custom-id)
+<a href="#custom-id">Heading IDs</a>
+其他网站可以通过将自定义标题ID添加到网页的完整URL
+[Heading IDs](https://markdown.com.cn/extended-syntax/heading-ids.html#headid)
+
+## Markdown 定义列表
+要创建定义列表，请在第一行上键入术语。在下一行，键入一个冒号，后跟一个空格和定义。
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+<dl>
+    <dt>First Term</dt>
+    <dd>This is the definition of the first term.</dd>
+    <dt>Second Term</dt>
+    <dd>This is one definition of the second term.</dd>
+    <dd>This is another definition of the second term.</dd>
+</dl>
+
+## 删除线
+若要删除单词，请在单词前后使用两个波浪号~~。
+~~世界是平坦的。~~ 我们现在知道世界是圆的。
+
+## 任务列表
+要创建任务列表，请在任务列表项之前添加破折号-和方括号[ ]，并在[ ]前面加上空格。要选择一个复选框，请在方括号[x]之间添加 x 。
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+  
+## Emoji表情
+去露营了！ :tent: 很快回来。
+
+真好笑！ :joy:
+
+## 自动网址链接
+
+http://www.example.com
+
+通过将URL表示为带反引号的代码来删除该链接。
+
+`http://www.example.com`
+
+<http://www.example.com>
